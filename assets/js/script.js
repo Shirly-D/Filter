@@ -1,17 +1,12 @@
-var all = document.querySelector('.all');
-var lawn = document.querySelector('.lawn-care');
-var garden = document.querySelector('garden-care');
-var planting = document.querySelector('planting');
-
-function abc() {
-all.addEventListener('click', function(e) {
-    if (all.innerHTML == 'all') {
-        
-    }
-});
-
+var filterElem = document.querySelectorAll('.filter');
+for (var i = 0; i < filterElem.length; i++){
+    filterElem[i].addEventListener('click', function(e){
+        if (this == e.target) {
+            var elem = e.target.getAttribute('data-gallery');
+            console.log(filterElem);
+        }
+    })
 }
-abc();
 
 
 
