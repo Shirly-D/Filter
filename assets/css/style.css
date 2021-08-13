@@ -182,7 +182,7 @@ section .wrapper div:first-child {
 .active { display: block; }
 .none { display: none; }
 
-.active-filter {
+.ul-project li .active-filter {
   background-color: #69ad31;
 	color: #fff;
 }
