@@ -179,6 +179,7 @@ section .wrapper div:first-child {
 }
 
 .ul-image li:nth-child(3n) { margin-right: 0; }
+.active { display: block; }
 
 
 /*=================================
