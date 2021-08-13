@@ -100,25 +100,64 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 90%; 
   margin: 0 auto;
 }
-/*=================================
-  Header styling starts here
-=================================*/
-
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
 
 /*=================================
   main styling starts here
 =================================*/
+
+h3 {
+  margin: 50px 0;
+  color: #333333;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+section .wrapper div:first-child {
+  padding: 20px 0;
+  background-color: #000;
+  color: #fff;
+  font-size: 35px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.ul-project { text-align: center; }
+.ul-project li:first-child { margin-left: 0; }
+
+.ul-project li {
+  margin-left: 5%;
+  margin-bottom: 50px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.ul-project li a {
+  width: 100%;
+  padding: 10px 13px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #e5e5e5;
+  color: #fff;
+  font-size: 15px;
+}
+
+.ul-image {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ul-image li {
+  width: 28%;
+  margin-right: 1%;
+  border: 1px solid #000;
+}
+
+.ul-image li:nth-child(3n) { margin-right: 0; }
 
 
 
@@ -130,25 +169,3 @@ li {
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
-
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
