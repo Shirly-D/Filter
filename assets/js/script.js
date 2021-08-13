@@ -8,6 +8,16 @@ for (var i = 0; i < filterElem.length; i++){
     })
 }
 
+function filter() {
+    var element = document.querySelectorAll('.filter-image');
+    for (var j = 0; j < element.length; j++) {
+        if (element.innerHTML == getAttribute('data-gallery')) {
+            element[j].className += "active";
+        } else {
+            
+        }
+    }
+}
 
 
 
