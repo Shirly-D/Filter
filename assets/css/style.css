@@ -161,7 +161,6 @@ section .wrapper div:first-child {
 .ul-project li a:hover {
   border: 1px solid #c0e5bc;
 	border-radius: 3px;
-  background-color: #69ad31;
 	color: #fff;
 	font-size: 15px;
   transition: 0.3s;
