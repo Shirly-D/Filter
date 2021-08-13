@@ -182,6 +182,10 @@ section .wrapper div:first-child {
 .active { display: block; }
 .none { display: none; }
 
+.active-filter {
+  background-color: #69ad31;
+	color: #fff;
+}
 
 /*=================================
   main styling ends here
