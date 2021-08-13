@@ -4,11 +4,9 @@ for (var i = 0; i < filterElem.length; i++){
         if (this == e.target) {
             var elem = e.target.innerHTML;
             for (var k = 0; k < filterElem.length; k++){
-                filterElem[i].classList.remove("active-filter");
+                filterElem[k].classList.remove("active-filter");
             }
-            filterElem[i].classList.add("active-filter");
-            console.log(e.target);
-            console.log(elem);
+            e.target.classList.add("active-filter");
             filter(elem);
         }
     })
@@ -16,7 +14,6 @@ for (var i = 0; i < filterElem.length; i++){
 
 function filter(elemFilter) {
     var element = document.querySelectorAll('.filter-image');
-    
     for (var j = 0; j < element.length; j++) {
         var a = element[j].getAttribute("data-gallery");
         element[j].classList.remove('active');
@@ -26,7 +23,6 @@ function filter(elemFilter) {
         } else {
             element[j].className += " none";
         }
-        console.log(elemFilter);
     }
 }
 
